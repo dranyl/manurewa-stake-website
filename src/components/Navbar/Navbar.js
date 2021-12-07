@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <nav className='navbar'>
-      <h3>Manurewa Stake</h3>
-      <ul>
+      <h3 className='logo'>Manurewa Stake</h3>
+      <ul className='nav-links'>
         <Link to='/' className='home'>
           <li>Home</li>
         </Link>
@@ -20,6 +20,9 @@ const Navbar = () => {
           <li>Contact us</li>
         </Link>
       </ul>
+      <button className='mobile-icon-menu'>
+        <i className='fas fa-bars'></i>
+      </button>
     </nav>
   )
 }

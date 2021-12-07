@@ -3,3 +3,49 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 75px;
+  background-color: #00828c;
+  color: #fff;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 75%;
+}
+
+.home,
+.announcement,
+.events,
+.contactus {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  /* background-color: skyblue; */
+  cursor: pointer;
+}
+
+.mobile-icon-menu {
+  display: block;
+  position: absolute;
+  font-size: 30px;
+  color: #fff;
+  background-color: #00828c;
+  border: none;
+  outline: none;
+  top: 15px;
+  right: 25px;
+  display: none;
+}
